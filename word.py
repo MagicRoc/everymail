@@ -1,5 +1,6 @@
 
 def fetchword():
+    """从文件获取单词，recoad文件记录状态"""
     theword = ""
     with open('value.txt',"r") as f1,open('recoad.txt',"r") as f2:
         flag = f2.read()
