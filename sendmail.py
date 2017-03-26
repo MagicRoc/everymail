@@ -19,7 +19,7 @@ def _format_addr(s):
 
 location = "河南南阳\n"
 from_addr = '15518997683@163.com'
-password = 'asd123456'   # 密钥
+password = '******'   # 密钥
 smtp_server = 'smtp.163.com' # 邮箱服务器
 
 
